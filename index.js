@@ -1,6 +1,9 @@
 var animal = 'dog'
 
 function myAnimal() {
+  if(animal == 'cat'){
+    animal = 'dog'
+  }
   return animal
 }
 
